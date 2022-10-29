@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background-color: bisque;
+}
+    h1{
+        color:blue;
+        font-family: 'Lobster', cursive;
+    }
+    h3{
+        color:aqua;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    p{
+        color: brown;
+        text-align: justify;
+        font-family: 'Dancing Script', cursive;
+    }
+    #home{
+        background: linear-gradient(#4efcba 0%, #2311a8 100% );
+    }
+    .menu{
+    list-style: none;
+    position: fixed;
+    cursor:pointer;
+    right: 30px ;
+    font-family: 'Oswald', sans-serif;
+    }
+
+    .link{
+    float:left;
+    color: #521cdc;
+    background-color:#4efcba;
+    padding:5px;
+    }
+
+    .link:hover{
+          color:#eeeb16;
+          font-size:25px;
+    }
+    a{
+        text-decoration: none;
+        font-size:30px;
+    }
